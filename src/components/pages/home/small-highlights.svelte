@@ -77,13 +77,13 @@
         </div>
         <p class="text-sm text-foreground-secondary">
           {#if highlight.content.component === 'blog-post'}
-            From our blog
+            Из нашего блога
           {:else if highlight.content.component === 'handbook'}
-            From the handbook
+            Из справочника
           {:else if highlight.content.component === 'career'}
-            Career opening
+            Открытая вакансия
           {:else if highlight.content.component === 'project'}
-            From our projects
+            Из наших проектов
           {/if}
         </p>
       </div>
